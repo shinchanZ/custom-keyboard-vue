@@ -1,0 +1,27 @@
+{
+  "name": "custom-keyboard-vue",
+  "version": "0.1.7",
+  "author": "zdd2018",
+  "private": false,
+  "description": "基于 Vue 的移动端自定义键盘",
+  "keywords": [
+    "keyboard","vue-keyboard","custom-keyboard","vue"
+  ],
+  "main": "lib/CustomKeyboardVue.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name CustomKeyboardVue --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.4.3",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
