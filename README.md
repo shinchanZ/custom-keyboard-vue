@@ -75,6 +75,9 @@ customKeyboard
     [{key: 'CLEAR', label: '清空'}, {key: '0', label: '0'}, {key: 'DELETE', label: '删除'}],
 ]
 ```
+#### demo
+
+[http://zhudongdong.xyz/custom-keyboard-vue/Demo/](http://zhudongdong.xyz/custom-keyboard-vue/Demo/)
 
 #### tip:
 
