@@ -4,7 +4,7 @@
       <input type="text" @click="input" v-model="inputValue" placeholder="请输入验证码"/>
       <button type="submit">提交</button>
     </form>
-    <custom-keyboard :keyboardShow.sync="show" :customKeyboard="customKeyboard" :value.sync="inputValue"></custom-keyboard>
+    <custom-keyboard  :customKeyboard="customKeyboard" :value.sync="inputValue"></custom-keyboard>
   </div>
 </template>
 
