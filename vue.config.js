@@ -1,6 +1,7 @@
 module.exports = {
     productionSourceMap: false,
     publicPath: './',
+    outputDir:'Demo',
     // 修改 src 目录 为 examples 目录
     pages: {
         index: {
