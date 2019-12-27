@@ -1,9 +1,12 @@
 {
   "name": "custom-keyboard-vue",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "author": "zdd2018",
   "private": false,
-  "git repository":"https://github.com/zdd2018/custom-keyboard-vue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zdd2018/custom-keyboard-vue"
+  },
   "description": "基于 Vue 的移动端自定义键盘",
   "keywords": [
     "keyboard",

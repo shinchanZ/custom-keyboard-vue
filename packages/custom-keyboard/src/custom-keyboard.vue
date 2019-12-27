@@ -81,6 +81,11 @@
                 if (event.target.className.indexOf('key-cell') !== -1) {
                     let obj = document.activeElement
                     obj.setSelectionRange(this.cursor, this.cursor)
+                    if (navigator.vibrate) {
+                        navigator.vibrate(50);
+                    } else if (navigator.webkitVibrate) {
+                        navigator.webkitVibrate(50);
+                    }
                 } else {
                     if (document.activeElement.tagName === 'INPUT') {
                         let obj = document.activeElement
