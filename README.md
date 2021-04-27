@@ -77,7 +77,7 @@ customKeyboard
 ```
 #### demo
 
-[http://zhudongdong.xyz/custom-keyboard-vue/Demo/](http://zhudongdong.xyz/custom-keyboard-vue/Demo/)
+[https://shinchanz.github.io/custom-keyboard-vue/Demo/](https://shinchanz.github.io/custom-keyboard-vue/Demo/)
 
 #### tip:
 
